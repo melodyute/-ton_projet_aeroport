@@ -29,3 +29,38 @@ Ce projet est un mini système de gestion pour un aéroport, développé en Pyth
 ## Auteur
 
 Projet réalisé par Mélody Ute – 2025
+
+## 📖 Guide d’utilisation
+
+### 1. Cloner le projet
+
+Télécharge ou clone ce dépôt GitHub :
+
+```bash
+git clone https://github.com/melodyute/-ton_projet_aeroport.git
+cd -ton_projet_aeroport
+
+pip install pymongo
+
+python init_db.py
+
+python test.py
+
+jupyter notebook
+
+### 2. Lancer le projet étape par étape
+
+```bash
+# 1. Installer pymongo
+pip install pymongo
+
+# 2. Initialiser la base MongoDB avec les données
+python init_db.py
+
+# 3. Lancer les tests (optionnel)
+python test.py
+
+# 4. Lancer le notebook pour tester les fonctionnalités
+jupyter notebook
+
+
